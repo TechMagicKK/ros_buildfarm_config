@@ -47,8 +47,8 @@ repositories:
     =E8ot
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - https://github.com/TechMagicKK/weight_scale_interfaces-release/tree/master
-target_repository: https://github.com/TechMagicKK/weight_scale_interfaces-release/tree/master
+    - http://localhost:8080/ubuntu/building
+target_repository: http://localhost:8080/ubuntu/building
 targets:
   ubuntu:
     # saucy:

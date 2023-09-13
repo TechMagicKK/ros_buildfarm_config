@@ -43,7 +43,7 @@ repositories:
     =E8ot
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - https://github.com/TechMagicKK/weight_scale_interfaces
+  - http://localhost:8080/ubuntu/testing
 targets:
   ubuntu:
     trusty:

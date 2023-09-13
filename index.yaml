@@ -87,7 +87,7 @@ prerequisites:
     =E8ot
     -----END PGP PUBLIC KEY BLOCK-----
 # rosdistro_index_url: https://raw.githubusercontent.com/ros/rosdistro/master/index.yaml
-rosdistro_index_url: https://raw.githubusercontent.com/ros/rosdistro/master/humble/distribution.yaml
+rosdistro_index_url: https://raw.githubusercontent.com/ros/rosdistro/master/index.yaml
 status_page_repositories:
   default:
   - http://localhost/ubuntu/building

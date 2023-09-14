@@ -127,7 +127,7 @@ repositories:
 target_repository: http://repo.ros2.org/ubuntu/building
 targets:
   ubuntu:
-    focal:
+    jammy:
       armhf:
 type: release-build
 upload_credential_id: jenkins-agent

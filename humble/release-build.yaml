@@ -82,12 +82,12 @@ repositories:
 target_repository: http://repo.ros2.org/ubuntu/building
 targets:
   ubuntu:
-    # saucy:
-    #   amd64:
-    #   i386:
-    focal:
+    jammy:
       amd64:
       # i386:
+    # bullseye:
+    #   amd64:
+    #   # i386:
 type: release-build
 upload_credential_id: jenkins-agent
 version: 2

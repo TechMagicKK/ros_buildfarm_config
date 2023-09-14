@@ -11,7 +11,7 @@ notifications:
   - ros-buildfarm-testfarm@googlegroups.com
 targets:
   ubuntu:
-    focal:
+    jammy:
       amd64:
 type: doc-build
 upload_credential_id: jenkins-agent

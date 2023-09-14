@@ -77,7 +77,7 @@ repositories:
     - http://repo.ros2.org/ubuntu/testing
 targets:
   ubuntu:
-    focal:
+    jammy:
       amd64:
 test_commits:
   default: true

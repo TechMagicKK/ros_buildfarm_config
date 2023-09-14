@@ -53,7 +53,7 @@ notification_emails:
 - ros-buildfarm-testfarm@googlegroups.com
 prerequisites:
   debian_repositories:
-    - http://localhost:8080/ubuntu/building
+    - https://repo.ros2.org/ubuntu//building
   debian_repository_keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -86,7 +86,6 @@ prerequisites:
     xaePFwP+okKW1h9qvwFhNF0JSCtdJrexdCf8jGE7
     =E8ot
     -----END PGP PUBLIC KEY BLOCK-----
-# rosdistro_index_url: https://raw.githubusercontent.com/ros/rosdistro/master/index.yaml
 rosdistro_index_url: https://raw.githubusercontent.com/ros/rosdistro/master/index.yaml
 status_page_repositories:
   default:

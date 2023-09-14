@@ -43,7 +43,7 @@ repositories:
     =E8ot
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - http://localhost:8080/ubuntu/testing
+  - http://repo.ros2.org/ubuntu/testing
 targets:
   ubuntu:
     trusty:

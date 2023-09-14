@@ -78,7 +78,7 @@ repositories:
     - http://repo.ros2.org/ubuntu/testing
 targets:
   ubuntu:
-    trusty:
+    focal:
       amd64:
 type: doc-build
 upload_credential_id: jenkins-agent

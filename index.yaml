@@ -7,7 +7,7 @@ distributions:
       default: humble/doc-build.yaml
       released-packages-without-doc-job: humble/doc-released-build.yaml
     notification_emails:
-    - ros-buildfarm-testfarm@googlegroups.com
+      - ros-buildfarm-testfarm@googlegroups.com
     release_builds:
 #      arm: humble/release-armhf-build.yaml
       default: humble/release-build.yaml
@@ -17,11 +17,10 @@ doc_builds:
   independent-packages: doc-independent-build.yaml
 jenkins_url: http://build.ros2.org
 notification_emails:
-- ros-buildfarm-testfarm@googlegroups.com
+  - ros-buildfarm-testfarm@googlegroups.com
 prerequisites:
   debian_repositories:
     - http://repo.ros2.org/ubuntu/building
-    - http://repositories.ros.org/ubuntu/main
   debian_repository_keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
